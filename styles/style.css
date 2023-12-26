@@ -1,1 +1,91 @@
+/* Trip Sans Font */
+@font-face {
+    font-family: 'Trip Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('TripSans-Regular.woff2') format('woff2'),
+        url('TripSans-Regular.woff') format('woff');
+}
 
+@font-face {
+    font-family: 'Trip Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('TripSans-Medium.woff2') format('woff2'),
+        url('TripSans-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Trip Sans Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('TripSansMono-Regular.woff2') format('woff2'),
+        url('TripSansMono-Regular.woff') format('woff');
+}
+
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+/* Body and General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'Trip Sans', 'Poppins', Arial, sans-serif !important;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+}
+
+.bold {
+    font-size: 25px;
+}
+
+li {
+    padding: 5px;
+}
+
+.nav-link {
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid green;
+    transition: .1s;
+}
+
+/* Charts Styling */
+.card img {
+    height: 250px;
+}
+
+.inner {
+    overflow: hidden;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.3);
+    transition: 2s;
+}
