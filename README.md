@@ -13,12 +13,17 @@ provides a glimpse into the performance and behavior of Trip Advisor.
 3. Install server
 
    `npm install http-server`
-   `npm i -g serve serve`
-4. Serve up the website
+   `npm i -g serve`
+
+4. Start the server
+
+   `serve`
+
+5. Serve up the website
 
     `http-server`
 
-5. Browse to [http://localhost:8080/](http://localhost:8080/) to see the 
+6. Browse to [http://localhost:8080/](http://localhost:8080/) to see the 
 visualization
 
 ## Source Code Layout
