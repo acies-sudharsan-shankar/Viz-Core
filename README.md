@@ -39,44 +39,5 @@ use the less compile to regenerate `style.css` as described above:
 
 ## Raw Data
 
-The raw data is available from two sources.  A compressed csv file with per-minute
-turnstile entry and exit counts from each station is made available with 
-permission from the MBTA:
+Confidential.
 
-<https://github.com/mbtaviz/mbtaviz.github.io/releases/download/data/turnstile_data.csv.gz>
-
-NOTE: some stations don't accurately measure turnstile exits, so entry counts 
-will tend to be more accurate.
-
-Also the realtime subway and alert JSON files collected for the month of 
-February are available here:
-
-<https://github.com/mbtaviz/mbtaviz.github.io/releases/download/data/raw_subway_data.tar.gz>
-
-They are stored in hourly gzipped files in the following format: 
-`subway-line/yyyy/mm/dd/hh/data.json.gz`
-where each line of the ungzipped file contains a JSON blob polled from the 
-MBTA's realtime feed described
-[here](http://www.mbta.com/rider_tools/developers/).  All times use Eastern 
-Standard time zone.
-
-## Creators
-
-**Mike Barry**
-
-- <https://github.com/msbarry>
-- <https://twitter.com/msb5014>
-
-**Brian Card**
-
-- <https://github.com/bcard>
-- <https://twitter.com/bmcard>
-
-## License
-
-Copyright 2014 Michael Barry and Brian Card.
-
-JavaScript source files and less stylesheets released under the MIT License.
-
-All other files including this README, the main web page, and images made available under
-[Github's terms of service](https://help.github.com/articles/open-source-licensing)
