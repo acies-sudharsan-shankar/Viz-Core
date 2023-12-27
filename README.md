@@ -23,10 +23,7 @@ visualization
     scripts\             JavaScript files for the visualization and the website
     styles\              less CSS stylesheets and main.css that they are compiled into
     media\               Opengraph/Twitter Card images
-    bower.json           bower dependencies
-    favicon.ico          map glyph favicon with animation
-    handout.pdf          design and implementation notes
-    ie.png               website rendered to an image for browsers without svg support
+    map.png              design and implementation notes
     index.html           landing page
     README.md            README file that appears on the website's github page
 
