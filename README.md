@@ -1,7 +1,7 @@
 TA visual analytics
 =====================
 
-[![mbtaviz.github.io](http://mbtaviz.github.io/media/wide-preview-collage.png)](http://mbtaviz.github.io/)
+[![mbtaviz.github.io](https://github.com/acies-sudharsan-shankar/Viz-Core/blob/main/media/Map.png)](http://mbtaviz.github.io/)
 
 vCore is a web based interactive visualization that
 provides a glimpse into the performance and behavior of Trip Advisor.
@@ -35,6 +35,7 @@ visualization
 The visualization loads `style.css` which is generated from all of the less 
 files in the `styles/` directory. If you change any of the less stylesheets 
 use the less compile to regenerate `style.css` as described above:
+
 
 ## Raw Data
 
