@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var svg = d3.select("#choroplethChart"),
         width = +svg.style("width").replace("px", ""),
         height = +svg.attr("height");
-        
+
     var unemployment = d3.map();
     var path = d3.geoPath();
     var x = d3.scaleLinear()
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var color = d3.scaleThreshold()
         .domain(d3.range(2, 10))
         .range(d3.schemeGreens[9]);
-  
+        
     var g = svg.append("g")
         .attr("class", "key")
         .attr("transform", "translate(0,40)");
