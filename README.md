@@ -10,11 +10,15 @@ provides a glimpse into the performance and behavior of Trip Advisor.
 
 1. Install [node.js](http://nodejs.org/)
 2. Setup command prompt in the path of the directory.
-3. Serve up the website
+3. Install server
+
+   `npm install http-server`
+   `npm i -g serve serve`
+4. Serve up the website
 
     `http-server`
 
-4. Browse to [http://localhost:8080/](http://localhost:8080/) to see the 
+5. Browse to [http://localhost:8080/](http://localhost:8080/) to see the 
 visualization
 
 ## Source Code Layout
