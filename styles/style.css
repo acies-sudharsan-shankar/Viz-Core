@@ -32,14 +32,14 @@
 /* Body and General Styling */
 body {
     margin: 0;
-    padding: 2%;
+    padding: 1%;
     box-sizing: border-box;
     width: 100%;
     font-family: 'Trip Sans', 'Poppins', Arial, sans-serif !important;
 }
 
 section {
-    min-height: 10vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
