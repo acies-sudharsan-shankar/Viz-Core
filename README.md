@@ -1,7 +1,7 @@
 TA visual analytics
 =====================
 
-[![mbtaviz.github.io](https://github.com/acies-sudharsan-shankar/Viz-Core/blob/main/media/Map.png)](http://mbtaviz.github.io/)
+[![mbtaviz.github.io](https://github.com/acies-sudharsan-shankar/Viz-Core/blob/main/media/Map.png)]()
 
 vCore is a web based interactive visualization that
 provides a glimpse into the performance and behavior of Trip Advisor.
