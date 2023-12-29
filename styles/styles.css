@@ -5,20 +5,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 250vh;
-  }
+}
   
-  .counties {
+.counties {
     fill: none;
-  }
+}
   
-  .states {
+.states {
     fill: none;
     stroke: #fff;
     stroke-linejoin: round;
-  }
+}
   
-  .title {
+.title {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-  }
+}
