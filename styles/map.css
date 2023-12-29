@@ -1,3 +1,34 @@
+/* Trip Sans Font */
+@font-face {
+    font-family: 'Trip Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('TripSans-Regular.woff2') format('woff2'),
+        url('TripSans-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Trip Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url('TripSans-Medium.woff2') format('woff2'),
+        url('TripSans-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Trip Sans Mono';
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url('TripSansMono-Regular.woff2') format('woff2'),
+        url('TripSansMono-Regular.woff') format('woff');
+}
+
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 body {
     margin: 0;
     display: block;
